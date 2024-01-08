@@ -1,0 +1,13 @@
+
+.boxContato{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 4rem 12.5%;
+    background-color: var(--azul);
+    text-align: center;
+    color: var(--branco);
+    background-image: url("imagens/marcaDagua.svg");
+    background-repeat: no-repeat;
+    background-position-x: 900px;
+}

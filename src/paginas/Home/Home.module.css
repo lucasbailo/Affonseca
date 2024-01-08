@@ -86,3 +86,29 @@ p, span {
     transform: scale(1.05);
     transition: 0.4s;
 }
+
+.button:active {
+    transform: scale(0.95);
+    transition: 0.2s;
+    background-color: var(--azul-leve);
+}
+
+
+/*Texto que aparece antes do usuário preencher os dados no formulário*/
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--letra-input);
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--letra-input);
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--letra-input);
+}
+
+/*Borda do input do formulário ao ser clicado e em preenchimento*/
+input:focus-visible, textarea:focus-visible {
+    outline: 1px solid var(--azul-leve);
+}

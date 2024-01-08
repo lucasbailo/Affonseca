@@ -1,0 +1,53 @@
+.firstSection {
+    width: 100%;
+    position: relative;
+    color: var(--branco);
+}
+
+.imagemFundo {
+    width: 100vw;
+    margin-bottom: -0.25rem;
+}
+
+.boxSobreNos, .abordagemDiv, .boxAbordagem {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.boxSobreNos {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-16.5%, -50%);
+}
+
+.sobreNosDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+}
+
+.subDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+}
+
+.secondSectionSobre, .thirdSectionSobre{
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 12.5%;
+}
+
+.secondSectionSobre{
+    color: var(--azul);
+    background-color: var(--azul-leve);
+}
+
+.thirdSectionSobre{
+    color: var(--branco);
+    background: rgb(106,135,197);
+    background: linear-gradient(115deg, rgba(106,135,197,1) 0%, rgba(44,75,134,1) 20%, rgba(18,33,61,1) 100%);
+}

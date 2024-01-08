@@ -1,0 +1,37 @@
+.footerBox, .footerDiv,.footerSubDiv,.footerDivTwo {
+    display: flex;
+}
+
+.footerBox {
+    flex-direction: column;
+    padding: 3rem 12.5% 0rem 12.5%;
+    color: var(--branco);
+    background-color: var(--azul);
+    gap: 4rem;
+}
+
+.footerTitle, .footerSpan, .footerSpanTwo {
+    text-align: center;
+}
+
+.footerDiv{
+    gap: 2rem;
+}
+
+.footerSubDiv{
+    flex-direction: column;
+    width: 50%;
+    gap: 1rem;
+}
+
+.footerSubDivText{
+    width: 80%;
+}
+
+.footerDivTwo{
+    flex-direction: column;
+}
+
+.footerSpanTwo {
+    background-color: var(--azul-claro);
+}

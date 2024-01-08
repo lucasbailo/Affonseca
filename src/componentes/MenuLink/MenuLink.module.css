@@ -1,0 +1,17 @@
+.link {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--azul);
+}
+
+.link:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.linkDestacado {
+    font-weight: 700;
+}

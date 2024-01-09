@@ -46,3 +46,14 @@ label{
     transition: 0.2s;
     background-color: var(--azul-leve);
 }
+
+.invalid{
+    color: red;
+    text-align: left;
+    margin-top: -1rem;
+}
+
+.valid {
+    color: green;
+    font-weight: 500;
+}

@@ -14,24 +14,49 @@
     text-align: center;
 }
 
-.footerDiv{
+.footerDiv {
     gap: 2rem;
 }
 
-.footerSubDiv{
+.footerSubDiv {
     flex-direction: column;
     width: 50%;
     gap: 1rem;
 }
 
-.footerSubDivText{
+.footerSubDivText {
     width: 80%;
 }
 
-.footerDivTwo{
+.footerDivTwo {
     flex-direction: column;
 }
 
 .footerSpanTwo {
     background-color: var(--azul-claro);
 }
+
+.footerLink {
+    text-decoration: none;
+    color: var(--branco);
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 700px) {
+    .footerBox {
+        padding: 3rem 5.5% 0rem 5.5%;
+        color: var(--branco);
+        gap: 4rem;
+    }
+    .footerDiv {
+        width: 100%;
+        flex-direction: column;
+    }
+    .footerSubDiv {
+        width: 100%;
+        gap: 1rem;
+    }
+    .footerSubDivText {
+        width: 100%;
+    }
+  }

@@ -2,6 +2,10 @@
     width: 100%;
 }
 
+.rioTagMobile {
+    display: none;
+}
+
 .homeImage {
     width: 100vw;
     margin-bottom: -0.25rem;
@@ -93,7 +97,6 @@ p, span {
     background-color: var(--azul-leve);
 }
 
-
 /*Texto que aparece antes do usuário preencher os dados no formulário*/
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: var(--letra-input);
@@ -111,4 +114,27 @@ p, span {
 /*Borda do input do formulário ao ser clicado e em preenchimento*/
 input:focus-visible, textarea:focus-visible {
     outline: 1px solid var(--azul-leve);
+}
+
+@media screen and (max-width: 700px) {
+    .rioTagMobile {
+        display: block;
+        position: absolute;
+        margin-top: 20px;
+        right: 0;
+        margin-right: 20px;
+    }
+    .linkRio {
+        text-decoration: none;
+        color: var(--branco);
+    }
+
+    .secondSection {
+        flex-direction: column;
+    }
+
+    .servicosDivOne,.servicosDivTwo {
+        width: 100%;
+        gap: 1rem;
+    }
 }

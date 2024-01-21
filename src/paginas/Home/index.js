@@ -6,6 +6,7 @@ import apresentacao from './Apresentação Affonseca.pdf'
 export default function Home() {
     return (
         <main className={styles.mainContainer}>
+            <h4 className={styles.rioTagMobile}><a className={styles.linkRio} href='https://maps.app.goo.gl/ECRp4496uGW9zZkT8' target='_blank' rel='noreferrer' >Rio de Janeiro</a></h4>
             <img className={styles.homeImage} src={fotoHome} alt='Foto principal' />
             <section className={styles.firstSection}>
                 <img className={styles.imagemFundo} src={imagemFundo} alt='Foto de fundo' />
@@ -27,7 +28,7 @@ export default function Home() {
                     <h1>SERVIÇOS</h1>
                     <p>Nossa história é um conto de sucesso fundamentado em solidez e tradição. A base de nossa experiência no Brasil nos permitiu expandir nossas operações para entregar importantes obras públicas e privadas no exterior. De obras rodoviárias a projetos de urbanização e saneamento, nossa marca está presente em empreendimentos que unem comunidades e nações.</p>
                     <a
-                        href='https://wa.me//5517992321773?text=Olá,%20tudo%20bem?%20Gostaria%20de%20falar%20com%20vocês.%20Tem%20alguém%20aí%20disponível?'
+                        href='https://wa.me//5517992321773?text=Olá,%20tudo%20bem?%20Gostaria%20de%20falar%20com%20vocês.%20Tem%20alguém%20disponível?'
                         download='Apresentação Affonseca'
                         target='_blank'
                         rel='noreferrer'>

@@ -18,3 +18,25 @@ ul {
     display: flex;
     gap: 2rem;
 }
+
+.headerLink{
+    text-decoration: none;
+    color: var(--azul);
+}
+
+@media screen and (max-width: 700px) {
+    .headerContainer {
+        padding: 1rem 5.5%;
+    }
+    .rioTag {
+        display: none;
+    }
+    .leftContainer{
+        justify-content:flex-start;
+        width: 100%;
+    }
+    .linksContainer{
+        width: 100%;
+        justify-content:space-around;
+    }
+}

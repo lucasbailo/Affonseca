@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 700px) {
     .footerBox {
-        padding: 3rem 5.5% 0rem 5.5%;
+        padding: 3rem 8.5% 0rem 8.5%;
         color: var(--branco);
         gap: 4rem;
     }

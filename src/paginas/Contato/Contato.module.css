@@ -1,5 +1,4 @@
-
-.boxContato{
+.boxContato {
     display: flex;
     flex-direction: column;
     gap: 5rem;
@@ -10,4 +9,12 @@
     background-image: url("imagens/marcaDagua.svg");
     background-repeat: no-repeat;
     background-position-x: 900px;
+}
+
+@media screen and (max-width: 700px) {
+    .boxContato {
+        padding: 3rem 8.5%;
+        gap: 2.5rem;
+        background-position-x: 20px;
+    }
 }

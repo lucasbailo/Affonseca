@@ -46,7 +46,7 @@
     .footerBox {
         padding: 3rem 8.5% 0rem 8.5%;
         color: var(--branco);
-        gap: 4rem;
+        gap: 2rem;
     }
     .footerDiv {
         width: 100%;
@@ -56,6 +56,11 @@
         width: 100%;
         gap: 1rem;
     }
+
+    .footerSubDivTitle {
+        font-size: 16px;
+    }
+
     .footerSubDivText {
         width: 100%;
     }

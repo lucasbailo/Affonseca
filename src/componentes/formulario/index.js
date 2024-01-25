@@ -115,7 +115,7 @@ function Formulario() {
           <span className={styles.invalid}>{invalidMessage}</span>
         </div>
         <div>
-          <input className={styles.formButton} type="submit" value="Enviar" />
+          <input className={styles.formButton} type="submit" value="Enviar"/>
         </div>
           <span className={styles.valid}>{allRight}</span>
       </form>

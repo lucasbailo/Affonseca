@@ -11,7 +11,7 @@ export default function Footer() {
                 </div>
                 <div className={styles.footerSubDiv}>
                     <h3 className={styles.footerSubDivTitle}>CONTATO</h3>
-                    <p><a className={styles.footerLink} href='https://wa.me//5517996210402?text=Olá,%20tudo%20bem?%20Gostaria%20de%20falar%20com%20vocês.%20Tem%20alguém%20disponível?' target='_blank' rel='noreferrer'>+55 17 99621-0402</a></p>
+                    <p><a className={styles.footerLink} href='https://wa.me//5517997935439?text=Olá,%20tudo%20bem?%20Gostaria%20de%20falar%20com%20vocês.%20Tem%20alguém%20disponível?' target='_blank' rel='noreferrer'>+55 17 99793-5439</a></p>
                     <p className={styles.footerSubDivText}><a href="mailto:contato@construtoraaffonseca.com.br" className={styles.footerLink}>contato@construtoraaffonseca.com.br</a></p>
                 </div>
             </div>

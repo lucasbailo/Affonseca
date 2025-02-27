@@ -1,6 +1,40 @@
-## !!! Still in development 👨‍💻🚧🏗️👷!!!
+## Welcome again to another React project! 👋
 
-# Test here: **[Vercel Link for preview](https://affonseca-lucasbailo.vercel.app/)**
+## Test the project yourself: [Teste the project here!!!](https://affonseca-lucasbailo.vercel.app/)
+
+### Home Page 
+
+<img src="https://drive.usercontent.google.com/download?id=1RnCly-O0plL2bNHWNWa63kAEDaS5mWDl" alt="Home Page" width="30%">
+
+## Some code that I'm proud of
+```js
+function AppRoutes() {
+  return(
+    <BrowserRouter>
+      <Header/>
+      <Routes>
+        <Route path='/' element={ <Home /> } />
+        <Route path='/sobrenos' element={ <Sobre /> } />
+        <Route path='/contato' element={ <Contato /> } />
+        <Route path='*' element={ <Erro /> } />
+      </Routes>
+      <Footer/>
+    </BrowserRouter>
+  );
+}
+```
+
+## Built with
+
+- [`React`](https://react.dev/);
+- [`EmailJS`](https://www.emailjs.com/)
+
+## Author
+
+- Website - [My GitHub](https://github.com/lucasbailo)
+- Frontend Mentor - [@lucasbailo](https://www.frontendmentor.io/profile/lucasbailo)
+- Instagram - [@lucassbailo](https://www.instagram.com/lucassbailo/)
+- LinkedIn - [Lucas Bailo](https://www.linkedin.com/in/lcsbailo)
 
 # Getting Started with Create React App
 
